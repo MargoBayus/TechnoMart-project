@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
+    <title>HTML Academy: ТехноМарт</title>
     <link rel="icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
     <link rel="stylesheet" href="styles/style.css">
@@ -64,19 +64,180 @@
 
 
     <main class="main-page">
+      <h1 class="visually-hidden">Главная</h1>
+
       <div class="category-item">
-        <div class="materials"></div>
-        <div class="tools"></div>
-        <div class="technic"></div>
-        <div class="catalog"></div>
-        <div class="sales"></div>
-        <div class="delivery"></div>
+
+        <div class="new-label"></div>
+
+        <div class="materials">
+          <h2 class="category-name">материалы</h2>
+          <div class="img-materials"></div>
+          <a class="catalog-button" href="#">На любой вкус</a>
+        </div>
+
+
+        <div class="tools">
+
+          <h2 class="category-name">инструмент</h2>
+          <div class="img-tools"></div>
+          <a class="catalog-button" href="#">На все случаи</a>
+        </div>
+
+        <div class="technic">
+          <h2 class="category-name">техника</h2>
+          <div class="img-technic"></div>
+          <a class="catalog-button" href="#">для стройки</a>
+        </div>
+
+        <div class="catalog">
+
+          <h2 class="catalog-name">дрели</h2>
+          <p class="catalog-description">Соседям на радость!</p>
+
+          <button class="pink-button" type="button" name="open-catalog" value="открыть каталог">открыть каталог</button>
+
+          <ul class="pagination">
+
+            <li class="circle-active"></li>
+            <li class="circle-passive"></li>
+            <li class="circle-passive"></li>
+
+          </ul>
+
+        </div>
+
+        <div class="sales">
+          <h2 class="category-name">скидки 50%</h2>
+          <div class="img-sales"></div>
+
+          <a class="catalog-button" href="#">на 350 товаров</a>
+        </div>
+
+        <div class="delivery">
+          <h2 class="category-name">доставка</h2>
+          <div class="img-delivery"></div>
+          <a class="catalog-button" href="#">бесплатно</a>
+        </div>
 
       </div>
 
+      <div class="catalog-punchers">
+        <h1 class="main-title">Перфораторы</h1>
+
+
+      </div>
+
+      <div class="serviсes-container">
+
+        <h1 class="main-title-center">Сервисы</h1>
+        <p class="service-description">Хороший интернет-магазин отличается от плохого не только ценами!
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+
+        <div class="serviсes">
+
+          <section class="services-delivery">
+            <div class="img-technic-red"></div>
+            <h2 class="service-name"> Доставка</h2>
+            <p class="service-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем,
+              поднимая его на ваш этаж!</p>
+          </section>
+
+          <section class="services-garanty">
+            <div class="img-garanty-red"></div>
+            <h2 class="service-name"> Гарантия</h2>
+            <p class="service-text">Вы в течение года можете написать нам письмо с просьбой вернуть сумму оплаты, и мы
+              полностью возместим вам стоимось товара</p>
+          </section>
+
+          <section class="services-credit">
+            <div class="img-credit-red"></div>
+            <h2 class="service-name"> кредит</h2>
+            <p class="service-text">Вы можете оформить кредит прямо на сайте! Для этого нужно выбрать понравившийся
+              товар и заполнить поля и ждать результата одобрения кредита.
+              Все как в банке, только проще!</p>
+
+          </section>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="about-company">
+        <section class="company">
+          <h1 class="main-title">КОМПАНИЯ «Техномарт»</h1>
+          <p class="about-company-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+            строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
+
+            Мы можем доставить ваш товар в самые отдаленные точки России!
+            Техномарт работает со многими транспортными компаниями:</p>
+          <button class="pink-button" type="button" name="about-us" value="о компании">О компании</button>
+
+        </section>
+
+        <section class="contacts">
+          <h1 class="main-title">контакты</h1>
+          <p class="contact-text">Вы можете забрать товар сами, заехав в наш офис:</p>
+          <a
+            href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?from=tabbar&ll=30.323117%2C59.938635&source=serp_navig&z=17"><img
+              src="images/map.jpg" width="500px" height="347px"
+              alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8."></a>
+
+
+        </section>
+
+      </div>
+
+
     </main>
 
+    <footer class="index-footer">
 
+      <div class="main-footer">
+        <section>
+          <a href="index.html"><img src="images/logo-technomart.svg" class="logo-footer" width="109.1px"
+              height="20.14px" alt="логотип техномарт"></a>
+          <p class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
+          <ul class="social">
+            <li><a href=><img src="images/pinterest.svg" width="20px" height="20px" class="social-icon"></a></li>
+            <li><a href=><img src="images/vk.svg" width="20px" height="20px" class="social-icon"></a></li>
+            <li><a href=></a><img src="images/vsco.svg" width="20px" height="20px" class="social-icon"></li>
+          </ul>
+
+        </section>
+
+        <section>
+          <p class="feedback">Обратная связь: <br> <a class="mailto"
+              href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+
+
+          <p class="feedback-form">Получайте лучшие предложения</p>
+          <form class="email-form" action="https://echo.htmlacademy.ru" method="post">
+            <input class="email" type="email" placeholder="email@example.com">
+            <button class="email-button" type="submit"></button>
+
+          </form>
+        </section>
+
+
+      </div>
+
+      <div class="bottom-footer">
+        <section class="bottom">
+          <p class="copyright">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+          <p class="htmlacademy">Разработано — <a class="academy"
+              href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+        </section>
+
+      </div>
+
+    </footer>
 
 
 
