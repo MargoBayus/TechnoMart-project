@@ -122,8 +122,264 @@
 
       </div>
 
-      <div class="catalog-punchers">
+      <div class="catalog-products">
         <h1 class="main-title">Перфораторы</h1>
+        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+
+        <div class="sorting-product">
+
+          <section class="sorting">
+
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
+              <fieldset class="catalog-filter-group">
+
+                <legend class="catalog-filter-title">производители</legend>
+
+                <ul class="catalog-filter-list">
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="BOSCH" checked>BOSCH
+
+                    </label>
+                  </li>
+
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="interskol">ИНТЕРСКОЛ
+
+                    </label>
+                  </li>
+
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Makita" checked>Makita
+
+                    </label>
+                  </li>
+
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Dewalt">Dewalt
+
+                    </label>
+                  </li>
+
+
+                  <li class="catalog-filter-item">
+                    <label class="controly">
+                      <input class="control-input" type="checkbox" name="Hitachi">Hitachi
+
+                    </label>
+                  </li>
+                </ul>
+
+
+              </fieldset>
+
+
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">питание</legend>
+                <ul class="catalog-filter-list">
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="product-power" value="battery"
+                        checked>Аккумуляторные
+
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="product-power" value="mains-supply">Сетевые
+
+                    </label>
+                  </li>
+
+                </ul>
+
+              </fieldset>
+
+              <button class="filter-button" type="submit">Показать</button>
+
+            </form>
+
+          </section>
+
+          <div class="products">
+            <select class="select-control" aria-label="Сортировать">
+
+              <option value="popular">Самые популярные</option>
+              <option value="cheap">Самые дешёвые</option>
+              <option value="expensive">Самые дорогие</option>
+
+            </select>
+
+
+            <ul class="product-list">
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-1.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 3000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 3000</h3>
+                </a>
+                <span class="product-price-old">22 500 ₽</span>
+                <a class="product-price-button" href="#">15 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 6000</h3>
+                </a>
+                <span class="product-price-old">30 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 2000</h3>
+                </a>
+                <span class="product-price-old-none">22 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 6000</h3>
+                </a>
+                <span class="product-price-old">30 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-1.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 3000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 3000</h3>
+                </a>
+                <span class="product-price-old">22 500 ₽</span>
+                <a class="product-price-button" href="#">15 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 2000</h3>
+                </a>
+                <span class="product-price-old-none">22 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 6000</h3>
+                </a>
+                <span class="product-price-old">30 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-1.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 3000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 3000</h3>
+                </a>
+                <span class="product-price-old">22 500 ₽</span>
+                <a class="product-price-button" href="#">15 500 ₽</a>
+
+              </li>
+
+
+              <li class="product-card">
+
+                <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="../TechnoMart/images/bosch-2.jpg" width="216px" height="180px"
+                    alt="Перфоратор BOSCH BFG 6000.">
+                  <h3 class="product-card-title">Перфоратор BOSCH BFG 2000</h3>
+                </a>
+                <span class="product-price-old-none">22 500 ₽</span>
+                <a class="product-price-button" href="#">25 500 ₽</a>
+
+              </li>
+
+            </ul>
+
+
+            <section></section>
+            <ul class="pagination">
+
+              <li class="pagination-item">
+                <a class="pagination-link">1</a>
+              </li>
+
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current" href="#">2</a>
+              </li>
+
+              <li class="pagination-item">
+                <a class="pagination-link">3</a>
+              </li>
+
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+
+            </ul>
+
+            <button class="button-show-more" type="button">Показать ещё</button>
+            </section>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
 
 
       </div>
